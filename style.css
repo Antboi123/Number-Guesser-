@@ -1,0 +1,51 @@
+Body {
+    Font-family: Arial, sans-serif;
+    Background-color: #f0f8ff;
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+    Height: 100vh;
+    Margin: 0;
+}
+
+.game-container {
+    Text-align: center;
+    Background-color: #fff;
+    Padding: 20px;
+    Border-radius: 10px;
+    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+Input {
+    Padding: 10px;
+    Margin: 10px;
+    Width: 200px;
+    Border: 2px solid #ccc;
+    Border-radius: 5px;
+}
+
+Button {
+    Padding: 10px 20px;
+    Background-color: #4caf50;
+    Color: white;
+    Border: none;
+    Border-radius: 5px;
+    Cursor: pointer;
+}
+
+Button:hover {
+    Background-color: #45a049;
+}
+
+#result-message {
+    Font-size: 1.2em;
+    Margin-top: 20px;
+}
+
+#previous-guesses {
+    Margin-top: 20px;
+    Font-style: italic;
+    Color: #888;
+}
+
+
